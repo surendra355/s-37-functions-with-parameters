@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Silkscreen:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+  background-color: #4f6b40;
+  padding: 20px;
+  box-shadow: 10px 10px 10px 05px gray;
+  
+}
+form label{
+  display: inline-block;
+  width: 100px;
+  font-family: "Share Tech Mono", serif;
+}
+form div{
+  margin: 15px;  
+}
+span{
+  display: inline-block;
+  width: 75px;
+}
+.resultLabel{
+  width: auto;
+  font-family: "Merienda", serif;
+}
+form label{
+  display: inline-block;
+  width: 100px;
+}
+.legendTitle{
+ 
+  font-family: "VT323", serif;
+  font-size: 30px;
+  
+}
+.myButton{
+  background-color: rgb(49, 49, 248); 
+      color: white;          
+      border: none;          
+      padding: 10px 20px;    
+      border-radius: 5px;    
+      cursor: pointer;       
+}
+.myButton:hover {
+  background-color: darkblue; 
+}
